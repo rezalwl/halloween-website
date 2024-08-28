@@ -1,12 +1,14 @@
-import React from 'react'
-import Home from './Home'
+import React from "react";
+import Home from "./Home";
+import Favorite from "./Favorite";
 
 const MainBody = () => {
   return (
     <>
-    <Home/>
+      <Home />
+      <Favorite />
     </>
-  )
-}
+  );
+};
 
-export default MainBody
+export default MainBody;

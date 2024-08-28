@@ -8,7 +8,7 @@ import './header.css'
 const Header = () => {
   return (
     <Navbar expand="lg" className="py-3">
-      <Container className="container">
+      <Container>
         <Navbar.Brand href="#home">
           <img
             alt=""
