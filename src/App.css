@@ -14,3 +14,8 @@
   background: linear-gradient(136deg, hsl(104, 28%, 35%) 0%, hsl(58, 28%, 35%) 100%);
   border-radius: 16px;
 }
+.discount-section{
+  background: linear-gradient(136deg, hsl(104, 28%, 35%) 0%, hsl(58, 28%, 35%) 100%);
+  border-radius: 50px;
+  padding-block: 48px !important;
+}
