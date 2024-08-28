@@ -8,34 +8,34 @@ import category3 from "../../assets/img/category3-img.png";
 
 const Favorite = () => {
   return (
-    <Container className="favorite-section">
+    <Container>
         <h1 class="fw-bolder text-center">Favorite Scare <br/> Category</h1>
       <Stack
         direction="horizontal"
         gap={3}
         className="align-items-center justify-content-center"
       >
-        <div>
+        <div className="text-center">
           <Image src={category1} fluid width={"200px"} className="mb-3" />
-          <h4 className="text-center">Ghosts</h4>
-          <p className="text-center">
+          <h4 >Ghosts</h4>
+          <p >
             Choose the ghosts, the
             <br /> scariest there are.
           </p>
         </div>
 
-        <div className="px-5 mx-5">
+        <div className="px-5 mx-5 text-center">
           <Image src={category2} fluid width={"200px"} className="mb-3" />
-          <h4 className="text-center">Ghosts</h4>
-          <p className="text-center">
+          <h4 >Ghosts</h4>
+          <p >
             Choose the ghosts, the
             <br /> scariest there are.
           </p>
         </div>
-        <div>
+        <div className="text-center">
           <Image src={category3} fluid width={"200px"} className="mb-3" />
-          <h4 className="text-center">Ghosts</h4>
-          <p className="text-center">
+          <h4>Ghosts</h4>
+          <p >
             Choose the ghosts, the
             <br /> scariest there are.
           </p>
