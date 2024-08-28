@@ -4,6 +4,7 @@ import Favorite from "./Favorite";
 import About from "./About";
 import Trick from "./Trick";
 import Discount from "./Discount";
+import New from "./New";
 
 const MainBody = () => {
   return (
@@ -13,6 +14,7 @@ const MainBody = () => {
       <About/>
       <Trick/>
       <Discount/>
+      <New/>
     </>
   );
 };
