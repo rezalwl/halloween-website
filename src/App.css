@@ -1,10 +1,12 @@
 .container {
   max-width: 1000px !important;
+  margin-bottom: 150px;
+}
+.header-btn{
+  border: 2px solid !important;
+  background-color: transparent !important;
+  border-radius: 3rem !important;
 }
 .home-title{
   font-size: 64px;
   }
-
-.favorite-section{
-  margin-top: 150px;
-}

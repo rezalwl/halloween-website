@@ -2,13 +2,12 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../../assets/img/logo.png";
+import logo from "../assets/img/logo.png";
 import Button from "react-bootstrap/Button";
-import './header.css'
 const Header = () => {
   return (
     <Navbar expand="lg" className="py-3">
-      <Container>
+      <Container className="mb-0">
         <Navbar.Brand href="#home">
           <img
             alt=""
