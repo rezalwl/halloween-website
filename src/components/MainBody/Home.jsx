@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button";
 
 const Home = () => {
   return (
-    <Container className="d">
+    <Container>
       <Row className="text-center text-md-start">
         <Col sm={12} md={6}>
           <Image src={homeImg} fluid width={"350px"} />
