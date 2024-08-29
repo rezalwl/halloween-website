@@ -1,9 +1,9 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Stack from "react-bootstrap/Stack";
-import logo from "../../assets/img/logo.png";
-import footer1 from "../../assets/img/footer1-img.png";
-import footer2 from "../../assets/img/footer2-img.png";
+import logo from "../assets/img/logo.png";
+import footer1 from "../assets/img/footer1-img.png";
+import footer2 from "../assets/img/footer2-img.png";
 const Footer = () => {
   return (
     <Container className="footer-container">

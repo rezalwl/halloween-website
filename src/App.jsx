@@ -2,7 +2,7 @@ import "./App.css";
 import "./breakpoints.css";
 import Header from "./components/Header";
 import MainBody from "./components/MainBody/MainBody";
-import Footer from "./components/footer/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
