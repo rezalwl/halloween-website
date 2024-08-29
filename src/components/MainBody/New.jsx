@@ -40,7 +40,7 @@ const New = () => {
           <Badge bg="danger" className="new-badge p-2 fs-6">
             New
           </Badge>
-          <Image src={new3} fluid width={"150px"} className="mb-3 pt-3" />
+          <Image src={new4} fluid width={"150px"} className="mb-3 pt-3" />
           <h4>Rip</h4>
           <p>Accessory</p>
           <p>15.99$</p>

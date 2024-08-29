@@ -4,7 +4,7 @@ body {
     hsl(104, 28%, 40%) 0%,
     hsl(58, 28%, 40%) 100%
   );
-  overflow-x: hidden;
+  
 }
 * {
   list-style: none;

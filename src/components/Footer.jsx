@@ -15,26 +15,23 @@ const Footer = () => {
         <div className=" px-5">
           <img src={logo} width={"30px"} alt="" className="pb-2" />{" "}
           <span className="fs-4">Halloween</span>
-          <p className="mt-4 text-color">Enjoy the scariest<br/> night of your life.</p>
+          <p className="mt-4 text-color">
+            Enjoy the scariest
+            <br /> night of your life.
+          </p>
         </div>
 
         <div className="px-5 text-left">
           <h4>About</h4>
           <ul className="p-0">
             <li>
-              <a href="#">
-                About  Us
-              </a>
+              <a href="#">About Us</a>
             </li>
             <li>
-              <a href="#">
-                Features
-              </a>
+              <a href="#">Features</a>
             </li>
             <li>
-              <a href="#">
-                News
-              </a>
+              <a href="#">News</a>
             </li>
           </ul>
         </div>
@@ -42,19 +39,13 @@ const Footer = () => {
           <h4>Our Services</h4>
           <ul className="p-0">
             <li>
-              <a href="#">
-              Pricing
-              </a>
+              <a href="#">Pricing</a>
             </li>
             <li>
-              <a href="#">
-              Discounts
-              </a>
+              <a href="#">Discounts</a>
             </li>
             <li>
-              <a href="#">
-              Shipping
-              </a>
+              <a href="#">Shipping</a>
             </li>
           </ul>
         </div>
@@ -62,26 +53,22 @@ const Footer = () => {
           <h4>Our Company</h4>
           <ul className="p-0">
             <li>
-              <a href="#">
-              Blog
-              </a>
+              <a href="#">Blog</a>
             </li>
             <li>
-              <a href="#">
-                Features
-              </a>
+              <a href="#">Features</a>
             </li>
             <li>
-              <a href="#">
-              Our mision
-              </a>
+              <a href="#">Our mision</a>
             </li>
           </ul>
         </div>
       </Stack>
-      <img src={footer1} alt="" width={'150px'} className="footer-img1"/>
-      <img src={footer2} alt="" width={'150px'} className="footer-img2"/>
-      <span className="footer-copyright text-color">&#169; rezalwl. All rigths reserved</span>
+      <img src={footer1} alt="" width={"150px"} className="footer-img1" />
+      <img src={footer2} alt="" width={"150px"} className="footer-img2" />
+      <span className="footer-copyright text-color">
+        &#169; rezalwl. All rigths reserved
+      </span>
     </Container>
   );
 };

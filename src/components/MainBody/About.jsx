@@ -27,7 +27,7 @@ const About = () => {
           </div>
         </Col>
         <Col sm={12} md={6}>
-          <Image src={aboutImg} fluid width={"350px"} className="ms-5" />
+          <Image src={aboutImg} fluid width={"350px"} className="ms-5 about-img" />
         </Col>
       </Row>
     </Container>

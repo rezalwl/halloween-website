@@ -9,13 +9,10 @@ import treat4 from "../../assets/img/trick-treat4-img.png";
 import treat5 from "../../assets/img/trick-treat5-img.png";
 import treat6 from "../../assets/img/trick-treat6-img.png";
 
-
-
-
 const Trick = () => {
   return (
     <Container>
-        <h1 className="fw-bolder text-center mb-5 pb-5">Trick Or Treat</h1>
+      <h1 className="fw-bolder text-center mb-5 pb-5">Trick Or Treat</h1>
       <Stack
         direction="horizontal"
         gap={5}
@@ -67,7 +64,7 @@ const Trick = () => {
         </div>
       </Stack>
     </Container>
-  )
-}
+  );
+};
 
-export default Trick
+export default Trick;

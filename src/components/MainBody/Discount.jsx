@@ -10,13 +10,13 @@ const Discount = () => {
   return (
     <Container className="discount-section">
       <Row className="align-items-center text-center">
-        <Col  sm={12} md={6}>
+        <Col sm={12} md={6}>
           <Image src={discount} fluid width={"350px"} className="ms-5" />
         </Col>
-        <Col className="me-5" sm={12} md={4} >
-          <div className="text-center mt-5" >
+        <Col className="me-5" sm={12} md={4}>
+          <div className="text-center mt-5">
             <h2 className="pb-4 fw-bolder">
-            50% Discount <br /> On New Products
+              50% Discount <br /> On New Products
             </h2>
             <Button variant="danger" size="lg">
               <a href="">Go to New</a>

@@ -12,11 +12,11 @@ const MainBody = () => {
     <>
       <Home />
       <Favorite />
-      <About/>
-      <Trick/>
-      <Discount/>
-      <New/>
-      <Newsletter/>
+      <About />
+      <Trick />
+      <Discount />
+      <New />
+      <Newsletter />
     </>
   );
 };
