@@ -15,11 +15,11 @@ import treat6 from "../../assets/img/trick-treat6-img.png";
 const Trick = () => {
   return (
     <Container>
-        <h1 class="fw-bolder text-center mb-5 pb-5">Trick Or Treat</h1>
+        <h1 className="fw-bolder text-center mb-5 pb-5">Trick Or Treat</h1>
       <Stack
         direction="horizontal"
         gap={5}
-        className="align-items-center justify-content-center mb-5"
+        className="align-items-center justify-content-center mb-5 flex-column flex-md-row"
       >
         <div className="trick-item text-center px-5">
           <Image src={treat1} fluid width={"110px"} className="mb-3 pt-3" />
@@ -44,7 +44,7 @@ const Trick = () => {
       <Stack
         direction="horizontal"
         gap={5}
-        className="align-items-center justify-content-center"
+        className="align-items-center justify-content-center flex-column flex-md-row"
       >
         <div className="trick-item text-center px-5">
           <Image src={treat4} fluid width={"110px"} className="mb-3 pt-3" />

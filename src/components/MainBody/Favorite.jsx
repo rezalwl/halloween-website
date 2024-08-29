@@ -9,11 +9,11 @@ import category3 from "../../assets/img/category3-img.png";
 const Favorite = () => {
   return (
     <Container>
-        <h1 class="fw-bolder text-center">Favorite Scare <br/> Category</h1>
+        <h1 className="fw-bolder text-center">Favorite Scare <br/> Category</h1>
       <Stack
         direction="horizontal"
         gap={3}
-        className="align-items-center justify-content-center"
+        className="align-items-center justify-content-center flex-column flex-md-row"
       >
         <div className="text-center">
           <Image src={category1} fluid width={"200px"} className="mb-3" />

@@ -1,9 +1,19 @@
-body{
-  background: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
-  
+body {
+  background: linear-gradient(
+    90deg,
+    hsl(104, 28%, 40%) 0%,
+    hsl(58, 28%, 40%) 100%
+  );
+  overflow-x: hidden;
 }
-*{
+* {
+  list-style: none;
   text-decoration: none !important;
   color: #fff !important;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+a,
+p {
+  color: hsl(14, 4%, 85%) !important;
 }

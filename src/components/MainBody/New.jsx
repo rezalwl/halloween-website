@@ -10,12 +10,12 @@ import Badge from "react-bootstrap/Badge";
 const New = () => {
   return (
     <Container>
-      <h1 class="fw-bolder text-center mb-5">New Arrivals</h1>
+      <h1 className="fw-bolder text-center mb-5">New Arrivals</h1>
 
       <Stack
         direction="horizontal"
         gap={5}
-        className="align-items-center justify-content-center mb-5"
+        className="align-items-center justify-content-center mb-5 flex-column flex-md-row"
       >
         <div className="trick-item text-center px-5">
           <Badge bg="danger" className="new-badge p-2 fs-6">

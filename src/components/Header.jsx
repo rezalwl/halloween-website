@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../assets/img/logo.png";
 import Button from "react-bootstrap/Button";
+
+
 const Header = () => {
+  const [scrollY , setScrollY] = useState(0)
+  useEffect(()=>{window.addEventListener('scroll' , ()=>{setScrollY(window.scrollY)})})
   return (
-    <Navbar expand="lg" className="py-3">
+    <Navbar expand="lg" className= {scrollY >= 50 ? 'fixed-top nav-bg' : 'j'}>
       <Container className="mb-0">
         <Navbar.Brand href="#home">
           <img

@@ -2,6 +2,9 @@
   max-width: 1000px !important;
   margin-bottom: 150px;
 }
+.text-color{
+  color: hsl(14, 4%, 85%) !important;
+}
 .header-btn {
   border: 2px solid !important;
   background-color: transparent !important;
@@ -50,5 +53,36 @@ width: 70%;
 outline: none;
 } 
 .newsletter-input::placeholder{
-  color: #fff;
+  color: hsl(14, 4%, 85%) !important;
 }  
+.show{
+  text-align: center !important;
+}
+.show .header-btn{
+  margin-right: 50px !important;
+}
+.footer-container{
+  position: relative;
+}
+.footer-img1{
+  position: absolute;
+  top: -110px;
+  right: -100px;
+}
+.footer-img2{
+  position: absolute;
+  top: -50px;
+  left: -100px;
+}
+.footer-copyright{
+  position: absolute;
+  bottom: -120px;
+  left: 38%;
+}
+
+
+@media screen and (max-width:500px){
+  .home-title{
+      font-size: 40px;
+  }
+}
