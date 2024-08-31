@@ -2,7 +2,7 @@
   "name": "new-folder--3-",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://rezalwl.github.io/halloween-website",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
